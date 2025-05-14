@@ -4,11 +4,11 @@ import numpy as np
 import face_recognition as face_rec
 
 #image detection
-pari=face_rec.load_image_file('sample_images\pari.jpg')
+pari=face_rec.load_image_file('SmartAttendence\pari.jpg')
 pari=cv2.cvtColor(pari,cv2.COLOR_BGR2RGB)
 pari=cv2.resize(pari,(300,300))
 
-pari_tilted=face_rec.load_image_file('sample_images\pari_tilted.jpg')
+pari_tilted=face_rec.load_image_file('SmartAttendence\pari_tilted.jpg')
 pari_tilted=cv2.cvtColor(pari_tilted,cv2.COLOR_BGR2RGB)
 pari_tilted=cv2.resize(pari_tilted,(300,300))
 
